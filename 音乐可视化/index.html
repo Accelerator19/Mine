@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>可视化音乐播放器</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+	
+	<body>
+		<script src="./js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<div id="img"></div>
+		<div id="wrapper">
+			<div id="wrapper-inner">
+				<div class="container" id="infotext">
+					<p>可视化音乐播放器</p>
+				</div>
+				<a href="#" id="fileChooser" onClick="ChooseFile()">选择音频</a>
+				<input id="choosebutton" type="file" />
+				<br>
+				<canvas id="visualizer">Your browser does not support Canvas tag.</canvas>
+				<div id="player-content">
+					<div id="album-img">
+						<img src="img/album.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
